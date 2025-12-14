@@ -1,0 +1,275 @@
+
+{
+    "header": {
+        "title": "Diario de Trading",
+        "author": "por Edney Pinheiro"
+    },
+    "tabs": {
+        "dashboard": "Dashboard",
+        "calendar": "Calendario",
+        "trades": "Operaciones"
+    },
+    "actions": {
+        "addNewTrade": "Añadir Operación",
+        "logFirstTrade": "Registra tu Primera Operación",
+        "tags": "Tags",
+        "clear": "Limpiar",
+        "today": "Hoy",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "delete": "Eliminar",
+        "confirm": "Confirmar",
+        "reset": "Reiniciar",
+        "export": "Exportar",
+        "import": "Importar",
+        "viewAllTrades": "Ver todas las operaciones",
+        "resetToDefault": "Restablecer a Predeterminado"
+    },
+    "common": {
+        "pnl": "P&L",
+        "pair": "Símbolo",
+        "symbol": "Símbolo",
+        "long": "Largo",
+        "short": "Corto",
+        "type": "Tipo",
+        "notes": "Notas",
+        "photos": "Fotos",
+        "date": "Fecha",
+        "time": "Hora",
+        "on": "el",
+        "of": "de",
+        "profitable": "rentable",
+        "unprofitable": "no rentable"
+    },
+    "dashboard": {
+        "title": "Dashboard",
+        "subtitle": "Tu rendimiento de trading de un vistazo.",
+        "netPnl": "P&L Neto",
+        "winRate": "Tasa de Éxito",
+        "avgPnl": "P&L Prom./Op.",
+        "pnlGoal": "Objetivo de P&L",
+        "clickToSet": "Haz clic para fijar",
+        "setPnlGoal": "Fijar Objetivo de P&L",
+        "pnlOverTime": "Evolución del P&L",
+        "noDataForChart": "No hay datos disponibles para este período.",
+        "recentTrades": "Operaciones Recientes",
+        "noTrades": {
+            "title": "¡Bienvenido a tu Diario de Trading!",
+            "desc": "Comienza registrando tu primera operación para ver cómo tu dashboard cobra vida."
+        },
+        "tagPerformance": "Rendimiento de Tags",
+        "topProfitableTags": "Tags Más Rentables",
+        "topUnprofitableTags": "Tags Menos Rentables",
+        "noProfitableTags": "No se encontraron tags rentables.",
+        "noUnprofitableTags": "No se encontraron tags no rentables.",
+        "notEnoughDataTags": "Añade tags a al menos 3 operaciones para ver análisis de rendimiento aquí."
+    },
+    "timeframes": {
+        "week": "Semana",
+        "month": "Mes",
+        "year": "Año"
+    },
+    "calendar": {
+        "title": "Calendario de Operaciones",
+        "subtitle": "Un resumen visual de tus días de trading.",
+        "viewWeekDetails": "Ver semana del {{date}}",
+        "week": "Semana"
+    },
+    "tradesList": {
+        "title": "Todas las Operaciones",
+        "searchPlaceholder": "Buscar por símbolo, notas, tags...",
+        "tradesFound_one": "{{count}} operación encontrada",
+        "tradesFound_other": "{{count}} operaciones encontradas",
+        "page": "Página",
+        "previous": "Ant",
+        "next": "Sig",
+        "noTradesFound": "No se encontraron operaciones.",
+        "noTradesFoundDesc": "Tu búsqueda de \"{{searchTerm}}\" no coincidió con ninguna operación.",
+        "emptyJournal": "Tu diario está vacío.",
+        "emptyJournalDesc": "Haz clic en 'Añadir Operación' para empezar.",
+        "selected_one": "{{count}} operación seleccionada",
+        "selected_other": "{{count}} operaciones seleccionadas",
+        "deleteSelected": "Eliminar Seleccionadas"
+    },
+    "tradeModal": {
+        "tradesFor": "Operaciones del {{date}}",
+        "dailyPnl": "P&L Diario",
+        "noTradesLogged": "No Hay Operaciones Registradas",
+        "noTradesLoggedDesc": "Añade una nueva operación para este día abajo.",
+        "confirmDeletion": "Confirmar Eliminación",
+        "confirmDeletionMsg": "¿Estás seguro de que quieres eliminar esta operación? Esta acción no se puede deshacer.",
+        "confirmDeletionMsg_one": "¿Estás seguro de que quieres eliminar esta operación? Esta acción no se puede deshacer.",
+        "confirmDeletionMsg_other": "¿Estás seguro de que quieres eliminar estas {{count}} operaciones? Esta acción no se puede deshacer.",
+        "addNotesPlaceholder": "Añade notas sobre la ejecución, mentalidad u observaciones...",
+        "addNotesPlaceholderShort": "Añade una nota rápida...",
+        "addPhoto": "Añadir Foto",
+        "photosCount": "({{count}}/5)",
+        "deletePhoto": "¿Eliminar Foto?",
+        "deletePhotoMsg": "¿Estás seguro de que quieres quitar esta foto?",
+        "adding": "Añadiendo...",
+        "trade_one": "{{count}} operación",
+        "trade_other": "{{count}} operaciones",
+        "executionScoring": "Puntuación de Ejecución",
+        "tradeRating": "Calificación de la Operación"
+    },
+    "viewTradeModal": {
+        "title": "Detalles de la Operación",
+        "netPnl": "P&L Neto"
+    },
+    "dataManagement": {
+        "ariaLabel": "Gestión de Datos",
+        "exportBackup": "Exportar Respaldo (JSON)",
+        "importReport": "Importar Reporte MT4/MT5",
+        "restoreBackup": "Restaurar de Respaldo",
+        "resetApp": "Reiniciar Aplicación",
+        "overwriteData": "¿Sobrescribir Datos?",
+        "overwriteDataMsg": "Restaurar desde un respaldo reemplazará todas las {{currentCount}} operaciones actuales con las {{importCount}} del archivo. Esto no se puede deshacer.",
+        "confirmImport": "Confirmar Importación",
+        "confirmImportMsg": "Estás a punto de importar {{count}} nuevas operaciones. Se añadirán a tu diario existente.",
+        "resetAppConfirm": "¿Reiniciar Aplicación?",
+        "resetAppConfirmMsg": "Esto eliminará permanentemente todos tus datos y configuraciones. ¿Estás absolutamente seguro?",
+        "processingFile": "Procesando archivo...",
+        "colorSettings": "Ajustes de Color",
+        "profitColor": "Color de Ganancia",
+        "lossColor": "Color de Pérdida"
+    },
+    "errors": {
+        "maxPhotos": "Puedes subir un máximo de 5 photos por operación.",
+        "photoProcess": "Error al procesar la foto. Por favor, intenta con otro archivo.",
+        "invalidBackup": "Archivo de respaldo inválido. El formato de los datos no es correcto.",
+        "unsupportedFile": "Tipo de archivo no soportado. Por favor, sube un archivo .html, .htm, o .xlsx.",
+        "pnlNumber": "El P&L debe ser un número válido."
+    },
+    "notifications": {
+        "tradeAdded": "¡Operación en {{pair}} añadida con éxito!",
+        "tradeUpdated": "Operación actualizada.",
+        "tradeDeleted": "Operación eliminada.",
+        "tradesDeleted_one": "{{count}} operación eliminada.",
+        "tradesDeleted_other": "{{count}} operaciones eliminadas.",
+        "backupExported": "Respaldo exportado con éxito.",
+        "tradesImported_one": "¡{{count}} operación importada con éxito!",
+        "tradesImported_other": "¡{{count}} operaciones importadas con éxito!",
+        "pnlGoalSaved": "¡Objetivo de P&L guardado!",
+        "settingsSaved": "¡Configuración guardada!"
+    },
+    "tooltips": {
+        "toggleTheme": "Cambiar tema",
+        "removeSuggestion": "Quitar {{suggestion}} de las sugerencias",
+        "removeTag": "Quitar tag {{tag}}",
+        "viewTrade": "Ver operación de {{pair}}",
+        "selectTrade": "Seleccionar operación de {{pair}}",
+        "selectAll": "Seleccionar todas las operaciones en esta página",
+        "clearSelection": "Limpiar selección",
+        "downloadImage": "Descargar imagen",
+        "closeViewer": "Cerrar visor de imágenes"
+    },
+    "tagCategories": {
+        "strategy": "Estrategia",
+        "trigger": "Gatillo de Entrada",
+        "session": "Sesión",
+        "mistakes": "Errores",
+        "confidence": "Confianza",
+        "emotions": "Emociones",
+        "custom": "Personalizado"
+    },
+    "tagGroup": {
+        "placeholder": "Seleccionar...",
+        "addCustom": "Añadir nueva opción..."
+    },
+    "tagOptions": {
+        "strategy": {
+            "Breakout": "Ruptura",
+            "Reversal": "Reversión",
+            "Liquidity Grab": "Toma de Liquidez",
+            "Trend Following": "Seguimiento de Tendencia"
+        },
+        "trigger": {
+            "Break & Retest": "Ruptura y Retest",
+            "Liquidity Sweep": "Barrido de Liquidez",
+            "Trendline Bounce": "Rebote en Línea de Tendencia",
+            "Order Block": "Bloque de Órdenes",
+            "Fair Value Gap": "Fair Value Gap"
+        },
+        "session": {
+            "London": "Londres",
+            "New York": "Nueva York",
+            "Asia": "Asia",
+            "Overlap": "Solapamiento"
+        },
+        "mistakes": {
+            "Early Entry": "Entrada Temprana",
+            "Late Entry": "Entrada Tardía",
+            "Early Exit": "Salida Temprana",
+            "Late Exit": "Salida Tardía",
+            "Over-leveraged": "Sobreapalancado",
+            "FOMO": "FOMO",
+            "Revenge Trading": "Trading de Venganza"
+        },
+        "confidence": {
+            "High": "Alta",
+            "Medium": "Media",
+            "Low": "Baja"
+        },
+        "emotions": {
+            "Patient": "Paciente",
+            "Disciplined": "Disciplinado",
+            "Anxious": "Ansioso",
+            "Greedy": "Avaricioso",
+            "Fearful": "Miedoso",
+            "Hesitant": "Dudoso",
+            "Bored": "Aburrido"
+        }
+    },
+    "cycleAlert": {
+        "streak": "Racha",
+        "dismiss": "Descartar alerta",
+        "loss": {
+            "low": {
+                "title": "Advertencia de Drawdown",
+                "desc": "Llevas {{count}} pérdidas seguidas. Es momento de pausar, respirar y revisar tu estrategia antes de la siguiente operación."
+            },
+            "high": {
+                "title": "Se Recomienda Detener el Trading",
+                "desc": "Racha crítica de {{count}} pérdidas detectada. Tienes alto riesgo de trading emocional (tilt). Recomendamos encarecidamente dejar de operar por hoy."
+            }
+        },
+        "win": {
+            "low": {
+                "title": "Construyendo Momentum",
+                "desc": "¡Buen trabajo! Estás en una racha de {{count}} ganancias. Mantén la disciplina y apégate al plan."
+            },
+            "high": {
+                "title": "¡Rendimiento Imparable!",
+                "desc": "¡Increíble racha de {{count}} ganancias! Estás en la zona. Solo recuerda vigilar el tamaño de tus posiciones y mantén la humildad."
+            }
+        }
+    },
+    "periodSummary": {
+        "monthly": "Resumen Mensual",
+        "weekly": "Resumen Semanal",
+        "noTrades": "No hay operaciones en este período."
+    },
+    "datepicker": {
+        "prevMonth": "Mes anterior",
+        "nextMonth": "Mes siguiente"
+    },
+    "monthlySummary": {
+        "totalPnl": "P&L Total",
+        "winRate": "Tasa de Éxito",
+        "trades": "Operaciones"
+    },
+    "circadian": {
+        "title": "Mapa de Beneficios Circadiano",
+        "insights": {
+            "title": "Estadísticas de Trading",
+            "unlock": "Registra más operaciones en diferentes horarios para desbloquear estadísticas.",
+            "profitZone": "Zona de Beneficios",
+            "profitZoneDesc": "Tu mejor hora para operar es entre {{start}} - {{end}} con una tasa de éxito del {{winRate}}%.",
+            "cautionZone": "Zona de Precaución",
+            "cautionZoneDesc": "Ten cuidado al operar cerca de las {{start}}. Revisa tu rendimiento en este horario.",
+            "trades_one": "{{count}} Operación",
+            "trades_other": "{{count}} Operaciones"
+        }
+    }
+}
